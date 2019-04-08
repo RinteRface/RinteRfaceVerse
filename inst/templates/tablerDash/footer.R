@@ -1,0 +1,1 @@
+footer <- tablerDashFooter(copyrights = "by Divad Nojnarg, Zurich, 2019")

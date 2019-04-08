@@ -1,0 +1,7 @@
+^appveyor\.yml$
+^cran-comments\.md$
+^docs$
+^_pkgdown\.yml$
+^\.travis\.yml$
+^.*\.Rproj$
+^\.Rproj\.user$

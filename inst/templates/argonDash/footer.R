@@ -1,0 +1,1 @@
+footer <- argonDashFooter("Zurich, 2019", copyrights = "by Divad Nojnarg", src = NULL)

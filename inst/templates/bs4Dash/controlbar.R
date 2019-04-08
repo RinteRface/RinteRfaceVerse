@@ -1,0 +1,1 @@
+controlbar <- bs4DashControlbar(skin = "dark", title = NULL, width = 250)
