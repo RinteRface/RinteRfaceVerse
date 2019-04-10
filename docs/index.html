@@ -62,7 +62,8 @@
   <div class="contents col-md-9">
 <div id="rinterfaceverse" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
-<a href="#rinterfaceverse" class="anchor"></a>RinteRfaceVerse</h1></div>
+<a href="#rinterfaceverse" class="anchor"></a>RinteRfaceVerse <img src="reference/figures/rinterfaceverse.svg" width="200" align="right">
+</h1></div>
 
 <blockquote>
 <p>Wrap-up around RinteRface templates</p>
@@ -70,7 +71,7 @@
 <div id="introduction" class="section level2">
 <h2 class="hasAnchor">
 <a href="#introduction" class="anchor"></a>Introduction</h2>
-<p>RinteRface gathers 4 templates to build nice looking dashboards with shiny. This package aims at bringing RinteRface templates closer to shiny beginners by suggesting plug and play boilerplates, ready to be cutsomized. These templates are different from showcases you can find in each separate package.</p>
+<p>RinteRface gathers 4 templates to build nice looking dashboards with shiny. This package aims at bringing RinteRface templates closer to shiny beginners by suggesting plug and play boilerplates, ready to be customized. These templates are different from showcases you can find in each separate package.</p>
 </div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
@@ -81,11 +82,26 @@
 <div id="getting-started" class="section level2">
 <h2 class="hasAnchor">
 <a href="#getting-started" class="anchor"></a>Getting Started</h2>
+<div id="select-the-good-template" class="section level3">
+<h3 class="hasAnchor">
+<a href="#select-the-good-template" class="anchor"></a>Select the good template</h3>
 <p>The <code><a href="reference/previewTemplate.html">previewTemplate()</a></code> function enables the user to preview 4 RinteRface templates, by selecting the relevant library:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw"><a href="reference/previewTemplate.html">previewTemplate</a></span>(<span class="dt">lib =</span> <span class="st">"shinydashboardPlus"</span>)</a>
 <a class="sourceLine" id="cb2-2" data-line-number="2"><span class="kw"><a href="reference/previewTemplate.html">previewTemplate</a></span>(<span class="dt">lib =</span> <span class="st">"bs4Dash"</span>)</a>
 <a class="sourceLine" id="cb2-3" data-line-number="3"><span class="kw"><a href="reference/previewTemplate.html">previewTemplate</a></span>(<span class="dt">lib =</span> <span class="st">"argonDash"</span>)</a>
 <a class="sourceLine" id="cb2-4" data-line-number="4"><span class="kw"><a href="reference/previewTemplate.html">previewTemplate</a></span>(<span class="dt">lib =</span> <span class="st">"tablerDash"</span>)</a></code></pre></div>
+</div>
+<div id="import-a-template" class="section level3">
+<h3 class="hasAnchor">
+<a href="#import-a-template" class="anchor"></a>Import a template</h3>
+<p>Once satisfied with a template, you can access its files with the <code><a href="reference/useTemplate.html">useTemplate()</a></code> function:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw"><a href="reference/useTemplate.html">useTemplate</a></span>(<span class="dt">path =</span> <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/getwd">getwd</a></span>(), <span class="dt">lib =</span> <span class="st">"shinydashboardPlus"</span>)</a></code></pre></div>
+</div>
+<div id="deploy-your-app" class="section level3">
+<h3 class="hasAnchor">
+<a href="#deploy-your-app" class="anchor"></a>Deploy your app</h3>
+<p>Both shinyapps.io and RStudio Connect have an automated process to push your app online via <code><a href="reference/deployTemplate.html">deployTemplate()</a></code>. For shiny server and shiny server pro, proceed “manually”.</p>
+</div>
 </div>
 </div>
   </div>
